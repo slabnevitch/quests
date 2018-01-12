@@ -2055,7 +2055,7 @@ header .container {
 }
 
 .gallery-slider.owl-carousel .owl-stage-outer {
-  overflow: visible;
+/*   overflow: visible; */
 }
 
 .gallery-slider.owl-carousel .owl-stage-outer .owl-item img {
