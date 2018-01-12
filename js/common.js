@@ -24,20 +24,20 @@ $(window).load(function() {
 	$(".loader_inner").fadeOut();
 	$(".loader").delay(400).fadeOut("slow");
 
-	var $headerVideo = $('#bgndVideo').YTPlayer({
-		quality: 'hd720',
-		anchor: 'top, top',
-		mobileFallbackImage: '../img/header-bg.jpg'
-	});
-	$headerVideo.on("YTPStart",function(e){
-	   	var currentTime = e.time;
-	   	setTimeout(function() {
-	   		$headerVideo.YTPPause();
+// 	var $headerVideo = $('#bgndVideo').YTPlayer({
+// 		quality: 'hd720',
+// 		anchor: 'top, top',
+// 		mobileFallbackImage: '../img/header-bg.jpg'
+// 	});
+// 	$headerVideo.on("YTPStart",function(e){
+// 	   	var currentTime = e.time;
+// 	   	setTimeout(function() {
+// 	   		$headerVideo.YTPPause();
 
-	   	}, 18000);
+// 	   	}, 18000);
 	  
-	   console.log('time' + currentTime);
-	});
+// 	   console.log('time' + currentTime);
+// 	});
 	
 	var tl = new TimelineMax();
 	tl
