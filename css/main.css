@@ -1368,7 +1368,7 @@ header .container {
   color: #D800FF;
 }
 
-.header-title:before {
+/* .header-title:before {
   content: '';
   top: 0;
   left: 0;
@@ -1380,7 +1380,7 @@ header .container {
   width: 200%;
   height: 1px;
   background-color: #D800FF;
-}
+} */
 
 .header-ellipses {
   position: relative;
